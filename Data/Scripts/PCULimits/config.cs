@@ -66,7 +66,8 @@ namespace Limits
 			{"MyObjectBuilder_ConveyorSorter/ARYXHeavyCoilgun", 8000},							// EDR-0F Predator-850 Coilgun	
 //Other		
 			{"MyObjectBuilder_ConveyorSorter/ARYXLargeRadar", 0},								// "Doppler" Radar Unit		
-			{"MyObjectBuilder_Beacon/JumpInhibitor", 1500},										// Jump Inhibitor							
+			{"MyObjectBuilder_Beacon/JumpInhibitor", 1500},										// Jump Inhibitor
+			{"MyObjectBuilder_Beacon/SmallJumpInhibitor", 3000},								// SG Jump Inhibitor							
 
 ////////////////////////////OLD
 			{"MyObjectBuilder_ConveyorSorter/ARYXHydraTurret", 750},							// RL6 Hydra Rocket Battery
