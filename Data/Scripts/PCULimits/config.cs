@@ -22,7 +22,9 @@ namespace Limits
 	/* Large Grid Weapons */
 		//Vanilla Weapons		
 			{"MyObjectBuilder_LargeGatlingTurret/(null)", 350},									//
-			{"MyObjectBuilder_LargeMissileTurret/AutoCannonTurret", 300},						//		
+			{"MyObjectBuilder_LargeGatlingTurret/LargeGatlingTurretReskin", 350},									//
+			{"MyObjectBuilder_LargeMissileTurret/AutoCannonTurret", 300},						//
+			{"MyObjectBuilder_LargeMissileTurret/LargeMissileTurretReskin", 300},				//		
 			{"MyObjectBuilder_LargeMissileTurret/(null)", 200},									//
 			{"MyObjectBuilder_LargeMissileTurret/LargeCalibreTurret", 300},						//
 			{"MyObjectBuilder_LargeMissileTurret/LargeBlockMediumCalibreTurret", 300},			//	
@@ -75,7 +77,7 @@ namespace Limits
 			{"MyObjectBuilder_LargeMissileTurret/ARYXHeavyFlakTurret", 900}, 					// F4-GL Thrasher Heavy Flak Cannon
 			{"MyObjectBuilder_ConveyorSorter/ARYXMissileBattery", 4000},						// M8G-LS4 Longsword Missile Battery
 			{"MyObjectBuilder_LargeMissileTurret/ARYXPlasmaBeamCannon", 4000},					// NC7-5F Trident Plasma Beam Cannon
-			{"MyObjectBuilder_ConveyorSorter/ARYXOculusLaserBase", 700},						// Oculus Orb-PD Laser
+			{"MyObjectBuilder_ConveyorSorter/ARYXOculusLaserBase", 100000},						// Oculus Orb-PD Laser
 			{"MyObjectBuilder_ConveyorSorter/ARYXRailgun", 1500},								// Artemis-250 Railgun
 			{"MyObjectBuilder_ConveyorSorter/ARYXInterceptorPDGun", 800},  						// R1-S Interceptor Rocket Pod         
 			{"MyObjectBuilder_LargeMissileTurret/ARYXJuryCannon", 500},							// M120 Whirlwind Heavy Cannon
@@ -112,14 +114,26 @@ namespace Limits
 			{"MyObjectBuilder_LargeMissileTurret/ARYXPhaseRepeaterCannon", 3000},				// XM500 Medusa Phase Cannon
 
 		//AWE Weapons CAPTURABLE	
-			{"MyObjectBuilder_ConveyorSorter/ARYXKingswordSupercannon", 999000},				// S12A-3KS Kingsword Casaba Lance	
+			{"MyObjectBuilder_ConveyorSorter/ARYXKingswordSupercannon", 25000},				// S12A-3KS Kingsword Casaba Lance	
 			{"MyObjectBuilder_ConveyorSorter/ARYXHeavyTorpedoLauncher", 8000},					// TL-350A Hyperion Heavy Torpedo Launcher		
+		
+		//TIO Weapons	
+//Cannons					
+			{"MyObjectBuilder_ConveyorSorter/MK1BattleshipGun_Block", 2500}, 					// Mk 1 Battleship Cannon
+			{"MyObjectBuilder_ConveyorSorter/MK2_Battleship_Block", 5000}, 					// Mk 2 Battleship Cannon
+			{"MyObjectBuilder_ConveyorSorter/MK3_Battleship_Block", 7500}, 					// Mk 3 Battleship Cannon
+//Railguns
+			{"MyObjectBuilder_ConveyorSorter/MK1Railgun_Block", 2500}, 					// Mk 1 Battleship Cannon
+			{"MyObjectBuilder_ConveyorSorter/MK2_Railgun_Block", 5000}, 					// Mk 2 Battleship Cannon
+			{"MyObjectBuilder_ConveyorSorter/MK3_Railgun_Block", 7500}, 					// Mk 3 Battleship Cannon
 		
 	/* Small Grid Weapons */	
 		//Vanilla Weapons	
 			{"MyObjectBuilder_LargeGatlingTurret/SmallGatlingTurret", 250},						//				
+			{"MyObjectBuilder_LargeGatlingTurret/SmallGatlingTurretReskin", 250},						//				
 			{"MyObjectBuilder_SmallGatlingGun/(null)", 250},									//
 			{"MyObjectBuilder_LargeMissileTurret/SmallMissileTurret", 250},						//
+			{"MyObjectBuilder_LargeMissileTurret/SmallMissileTurretReskin", 250},				//
 			{"MyObjectBuilder_LargeMissileTurret/SmallBlockMediumCalibreTurret", 250},			//
 			{"MyObjectBuilder_SmallMissileLauncher/(null)", 250},								//
 			{"MyObjectBuilder_SmallMissileLauncher/SmallMissileLauncherWarfare2", 250},			//
@@ -151,8 +165,8 @@ namespace Limits
 			{"MyObjectBuilder_SmallGatlingGun/ARYX_FixedAtlasGatling", 1000},					// MG50 Coaxial ATLAS Gatling Gun
 //Siege
 			{"MyObjectBuilder_ConveyorSorter/ARYXSmallBombBay", 1000},							// B2-M Shrike Bomb Bay
-			{"MyObjectBuilder_ConveyorSorter/ARYX_SabreMissileHardpoint", 5000},				// Sabre Missile
-			{"MyObjectBuilder_ConveyorSorter/ARYX_NyxMissileHardpoint", 5000},					// Nyx Missile		
+			{"MyObjectBuilder_ConveyorSorter/ARYX_SabreMissileHardpoint", 2000},				// Sabre Missile
+			{"MyObjectBuilder_ConveyorSorter/ARYX_NyxMissileHardpoint", 3000},					// Nyx Missile		
 //Other		
 			{"MyObjectBuilder_ConveyorSorter/ARYXSmallRadar", 0},								// "Maxwell" Radar Unit
 //OLD//			
@@ -239,7 +253,9 @@ namespace Limits
 			{"MyObjectBuilder_BatteryBlock/LargeBlockBatteryBlockWarfare28x", 360},
 	/* Large Grid Tools */ 			
 		// Welder	
-			{"MyObjectBuilder_ShipWelder/LargeShipWelder", 1250},		
+			{"MyObjectBuilder_ShipWelder/LargeShipWelder", 1250},	
+		// Deep Welder	
+			{"MyObjectBuilder_ShipWelder/LargeShipWelder8x", 1800},	
 
 	/* Small Grid Power */
 		//Vanilla Reactors
@@ -307,119 +323,119 @@ namespace Limits
 //Atmospheric Thrusters
 	//Atmospheric Thrust (Vanilla)
 		//Large Block Large
-			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust",  42},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust2x", 168},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust4x", 252},			
-			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust8x", 336},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust",  21},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust2x", 84},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust4x", 126},			
+			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrust8x", 168},
 		//Large Block Small
-			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust",  6},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust2x", 24},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust4x", 36},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust8x", 48},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust", 3},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust2x", 12},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust4x", 18},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrust8x", 24},
 		//Small Block Large
-			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust",  42},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust2x", 168},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust4x", 252},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust8x", 336},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust",  21},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust2x", 84},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust4x", 126},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrust8x", 168},
 		//Small Block Small
-			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust",  6},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust2x", 24},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust4x", 36},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust8x", 48},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust",  3},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust2x", 12},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust4x", 18},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrust8x", 24},
 
 	//Atmospheric Thrust (SciFi)
 		//Large Block Large
-			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi",  42},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi2x", 168},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi4x", 252},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi8x", 336},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi",  21},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi2x", 84},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi4x", 126},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeAtmosphericThrustSciFi8x", 168},
 		//Large Block Small
-			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi",  6},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi2x", 24},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi4x", 36},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi8x", 48},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi",  3},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi2x", 12},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi4x", 18},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallAtmosphericThrustSciFi8x", 24},
 		//Small Block Large
-			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi",  42},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi2x", 168},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi4x", 252},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi8x", 336},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi",  21},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi2x", 84},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi4x", 126},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeAtmosphericThrustSciFi8x", 168},
 		//Small Block Small
-			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi",  6},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi2x", 24},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi4x", 36},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi8x", 48},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi",  3},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi2x", 12},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi4x", 18},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallAtmosphericThrustSciFi8x", 24},
 
 	//Atmospheric Thrust (Flat)
 		//Large Block Large
-			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrust",  14},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrustDShape",  14},	
-			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrust2x",  56},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrustDShape2x", 56},	
-			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrust4x",  84},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrustDShape4x", 84},	
-			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrust8x",  112},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrustDShape8x", 112},	
+			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrust",  7},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrustDShape",  7},	
+			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrust2x",  28},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrustDShape2x", 28},	
+			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrust4x",  42},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrustDShape4x", 42},	
+			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrust8x",  56},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeFlatAtmosphericThrustDShape8x", 56},	
 		//Large Block Small
-			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrust", 2},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrustDShape", 2},	
-			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrust2x", 8},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrustDShape2x", 8},	
-			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrust4x", 12},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrustDShape4x", 12},	
-			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrust8x", 16},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrustDShape8x", 16},	
+			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrust", 1},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrustDShape", 1},	
+			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrust2x", 4},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrustDShape2x", 4},	
+			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrust4x", 6},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrustDShape4x", 6},	
+			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrust8x", 8},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallFlatAtmosphericThrustDShape8x", 8},	
 		//Small Block Large
-			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrust", 14},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrustDShape",	14},	
-			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrust2x", 56},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrustDShape2x", 56},	
-			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrust4x",84},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrustDShape4x", 84},	
-			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrust8x", 112},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrustDShape8x", 112},	
+			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrust", 7},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrustDShape",	7},	
+			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrust2x", 28},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrustDShape2x", 28},	
+			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrust4x",42},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrustDShape4x", 42},	
+			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrust8x", 56},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeFlatAtmosphericThrustDShape8x", 56},	
 
 		//Small Block Small
-			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrust", 2},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrustDShape",   2},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrust2x", 8},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrustDShape2x", 8},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrust4x", 12},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrustDShape4x", 12},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrust8x", 16},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrustDShape8x", 16},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrust", 1},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrustDShape",   1},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrust2x", 4},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrustDShape2x", 4},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrust4x", 6},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrustDShape4x", 6},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrust8x", 8},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallFlatAtmosphericThrustDShape8x", 8},
 
 //Hydrogen Thrusters
 	//Hydrogen Thrust (Vanilla)
 		//Large Block Large
-			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust", 42},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust2x", 168},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust4x", 252},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust8x", 336},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust", 21},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust2x", 84},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust4x", 126},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrust8x", 168},
 
 		//Large Block Small
-			{"MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust", 6},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust2x", 24},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust4x", 36},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust8x", 48},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust", 3},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust2x", 12},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust4x", 18},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrust8x", 24},
 
 		//Small Block Large
-			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust", 42},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust2x", 168},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust4x", 252},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust8x", 336},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust", 21},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust2x", 84},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust4x", 126},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrust8x", 168},
 
 		//Small Block Small
-			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust", 6},	
-			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust2x", 24},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust4x", 36},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust8x", 48},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust", 3},	
+			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust2x", 12},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust4x", 18},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrust8x", 24},
 
 	//Hydrogen Thrust (Industrial)
 		//Large Block Large
-			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustIndustrial", 42},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustIndustrial2x", 168},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustIndustrial4x", 252},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustIndustrial8x", 336},			
+			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustIndustrial", 21},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustIndustrial2x", 84},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustIndustrial4x", 126},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeHydrogenThrustIndustrial8x", 168},			
 
 		//Large Block Small
 			{"MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrustIndustrial", 6},
@@ -428,92 +444,92 @@ namespace Limits
 			{"MyObjectBuilder_Thrust/LargeBlockSmallHydrogenThrustIndustrial8x", 48},
 
 		//Small Block Large
-			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustIndustrial", 42},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustIndustrial2x", 168},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustIndustrial4x", 252},			
-			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustIndustrial8x", 336},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustIndustrial", 21},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustIndustrial2x", 84},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustIndustrial4x", 126},			
+			{"MyObjectBuilder_Thrust/SmallBlockLargeHydrogenThrustIndustrial8x", 168},
 
 		//Small Block Small
-			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustIndustrial", 6},	
-			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustIndustrial2x", 24},	
-			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustIndustrial4x", 36},	
-			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustIndustrial8x", 48},	
+			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustIndustrial", 3},	
+			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustIndustrial2x", 12},	
+			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustIndustrial4x", 18},	
+			{"MyObjectBuilder_Thrust/SmallBlockSmallHydrogenThrustIndustrial8x", 24},	
 
 //Ion Thrusters
 	//Ion Thrust (Vanilla)
 		//Large Block Large
-			{"MyObjectBuilder_Thrust/LargeBlockLargeThrust", 42},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeThrust2x", 168},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeThrust4x", 252},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeThrust8x", 336},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeThrust", 21},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeThrust2x", 84},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeThrust4x", 126},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeThrust8x", 168},
 
 		//Large Block Small
-			{"MyObjectBuilder_Thrust/LargeBlockSmallThrust", 6},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallThrust2x", 24},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallThrust4x", 36},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallThrust8x", 48},			
+			{"MyObjectBuilder_Thrust/LargeBlockSmallThrust", 3},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallThrust2x", 12},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallThrust4x", 18},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallThrust8x", 24},			
 
 		//Small Block Large
-			{"MyObjectBuilder_Thrust/SmallBlockLargeThrust", 42},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeThrust2x", 168},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeThrust4x", 252},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeThrust8x", 336},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeThrust", 21},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeThrust2x", 84},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeThrust4x", 126},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeThrust8x", 168},
 
 		//Small Block Small
-			{"MyObjectBuilder_Thrust/SmallBlockSmallThrust", 6},	
-			{"MyObjectBuilder_Thrust/SmallBlockSmallThrust2x", 24},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallThrust4x", 36},			
-			{"MyObjectBuilder_Thrust/SmallBlockSmallThrust8x", 48},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallThrust", 3},	
+			{"MyObjectBuilder_Thrust/SmallBlockSmallThrust2x", 12},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallThrust4x", 18},			
+			{"MyObjectBuilder_Thrust/SmallBlockSmallThrust8x", 24},
 
 	//Ion Thrust (SciFi)
 		//Large Block Large
-			{"MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi", 42},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi2x", 168},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi4x", 252},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi8x", 336},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi", 21},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi2x", 84},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi4x", 126},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeThrustSciFi8x", 168},
 
 		//Large Block Small
-			{"MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi", 6},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi2x", 24},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi4x", 36},			
-			{"MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi8x", 48},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi", 3},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi2x", 12},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi4x", 18},			
+			{"MyObjectBuilder_Thrust/LargeBlockSmallThrustSciFi8x", 24},
 
 		//Small Block Large
-			{"MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi", 42},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi2x", 168},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi4x", 252},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi8x", 336},			
+			{"MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi", 21},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi2x", 84},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi4x", 126},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeThrustSciFi8x", 168},			
 
 		//Small Block Small
-			{"MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi", 6},	
-			{"MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi2x", 24},	
-			{"MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi4x", 36},	
-			{"MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi8x", 48},	
+			{"MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi", 3},	
+			{"MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi2x", 12},	
+			{"MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi4x", 18},	
+			{"MyObjectBuilder_Thrust/SmallBlockSmallThrustSciFi8x", 24},	
 
 	//Ion Thrust (Warfare 2)
 		//Large Block Large
-			{"MyObjectBuilder_Thrust/LargeBlockLargeModularThruster", 42},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeModularThruster2x", 168},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeModularThruster4x", 252},
-			{"MyObjectBuilder_Thrust/LargeBlockLargeModularThruster8x", 336},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeModularThruster", 21},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeModularThruster2x", 84},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeModularThruster4x", 126},
+			{"MyObjectBuilder_Thrust/LargeBlockLargeModularThruster8x", 168},
 
 		//Large Block Small
-			{"MyObjectBuilder_Thrust/LargeBlockSmallModularThruster", 6},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallModularThruster2x", 24},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallModularThruster4x", 36},
-			{"MyObjectBuilder_Thrust/LargeBlockSmallModularThruster8x", 48},			
+			{"MyObjectBuilder_Thrust/LargeBlockSmallModularThruster", 3},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallModularThruster2x", 12},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallModularThruster4x", 18},
+			{"MyObjectBuilder_Thrust/LargeBlockSmallModularThruster8x", 24},			
 
 		//Small Block Large
-			{"MyObjectBuilder_Thrust/SmallBlockLargeModularThruster", 42},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeModularThruster2x", 168},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeModularThruster4x", 252},
-			{"MyObjectBuilder_Thrust/SmallBlockLargeModularThruster8x", 336},			
+			{"MyObjectBuilder_Thrust/SmallBlockLargeModularThruster", 21},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeModularThruster2x", 84},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeModularThruster4x", 126},
+			{"MyObjectBuilder_Thrust/SmallBlockLargeModularThruster8x", 168},			
 
 		//Small Block Small
-			{"MyObjectBuilder_Thrust/SmallBlockSmallModularThruster", 6},	
-			{"MyObjectBuilder_Thrust/SmallBlockSmallModularThruster2x", 24},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallModularThruster4x", 36},
-			{"MyObjectBuilder_Thrust/SmallBlockSmallModularThruster8x", 48},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallModularThruster", 3},	
+			{"MyObjectBuilder_Thrust/SmallBlockSmallModularThruster2x", 12},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallModularThruster4x", 18},
+			{"MyObjectBuilder_Thrust/SmallBlockSmallModularThruster8x", 24},
 
 		};
 
