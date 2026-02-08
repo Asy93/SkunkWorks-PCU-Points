@@ -41,7 +41,7 @@ namespace Limits
 			{"MyObjectBuilder_LargeMissileTurret/ARYXHurricaneCannon", 1500},					// M480 Hurricane Strike Cannon
 			{"MyObjectBuilder_LargeMissileTurret/ARYXTsunamiCannon", 900},					 	// M480 Tsunami Strike Cannon
 			{"MyObjectBuilder_LargeMissileTurret/ARYXTyphoonCannon", 2500},						// M600 Typhoon Strike Cannon
-			{"MyObjectBuilder_SmallMissileLauncher/ARYXTempestCannon", 1000},					// M600 Tempest Strike Cannon			
+			{"MyObjectBuilder_SmallMissileLauncher/ARYXTempestCannon", 3000},					// M600 Tempest Strike Cannon			
 			{"MyObjectBuilder_LargeMissileTurret/ARYXBurstTurret", 500},						// BR-RT7 "Punisher" Burst Cannon
 			{"MyObjectBuilder_ConveyorSorter/ARYXBurstTurretSlanted", 500},						// BR-RT7 "Punisher" Slanted Burst Cannon
 			{"MyObjectBuilder_LargeMissileTurret/ARYX_ChordAutocannon", 300},					// AC54 Chord
@@ -51,18 +51,18 @@ namespace Limits
 			{"MyObjectBuilder_LargeMissileTurret/ARYXGaussTurret", 5000},						// ZS-1200 Ariadne Heavy Railgun Turret
 			{"MyObjectBuilder_LargeMissileTurret/ARYXPicketRailgun", 1500},						// Athena-115 Picket Railgun Turret
 //Plasma
-			{"MyObjectBuilder_ConveyorSorter/ARYXPlasmaPulser", 750},							// M5D-4E Helios Plasma Pulser
+			{"MyObjectBuilder_ConveyorSorter/ARYXPlasmaPulser", 2000},							// M5D-4E Helios Plasma Pulser
 			{"MyObjectBuilder_LargeMissileTurret/ARYXMagnetarCannon", 4000},					// K8A-3SC Magnetar Shock Cannon
 			{"MyObjectBuilder_LargeMissileTurret/ARYXQuasarCannon", 2000},        				// K4A-2SC Quasar Shock Cannon
 			{"MyObjectBuilder_LargeMissileTurret/ARYXPulsarCannon", 1000},						// K2A-1SC Pulsar Shock Cannon
 			{"MyObjectBuilder_LargeMissileTurret/ARYXSpartanTurret", 1000},						// APL35-G Spartan Plasma Cannon			
 //Laser
 			{"MyObjectBuilder_LargeMissileTurret/ARYXVariableLaser", 2200},						// VL6 Modulus Variable-Laser
-  			{"MyObjectBuilder_ConveyorSorter/ARYXFocusLance", 1250},        					// M-100V Prometheus Focus Beam Lance
-			{"MyObjectBuilder_LargeMissileTurret/ARYXAuroraLaser", 1000},						// Aurora Combat Laser
+  			{"MyObjectBuilder_ConveyorSorter/ARYXFocusLance", 2500},        					// M-100V Prometheus Focus Beam Lance
+			{"MyObjectBuilder_LargeMissileTurret/ARYXAuroraLaser", 500},						// Aurora Combat Laser
 //Point Defense		
-			{"MyObjectBuilder_LargeGatlingTurret/ARYXAtlasPDC", 750},							// MG50 "ATLAS" Point Defence Cannon	
-			{"MyObjectBuilder_ConveyorSorter/ARYXSlantedAtlasPDC", 1000},						// MG50 "ATLAS" Slanted Point Defence Cannon
+			{"MyObjectBuilder_LargeGatlingTurret/ARYXAtlasPDC", 500},							// MG50 "ATLAS" Point Defence Cannon	
+			{"MyObjectBuilder_ConveyorSorter/ARYXSlantedAtlasPDC", 600},						// MG50 "ATLAS" Slanted Point Defence Cannon
 //Siege
 			{"MyObjectBuilder_ConveyorSorter/ARYXSiegeMortarCannon", 2000},						// M-1000 Avalanche Siege Mortar
 			{"MyObjectBuilder_ConveyorSorter/ARYXHeavyCoilgun", 8000},							// EDR-0F Predator-850 Coilgun	
@@ -72,22 +72,22 @@ namespace Limits
 			{"MyObjectBuilder_Beacon/SmallJumpInhibitor", 3000},								// SG Jump Inhibitor							
 
 ////////////////////////////OLD
-			{"MyObjectBuilder_ConveyorSorter/ARYXHydraTurret", 750},							// RL6 Hydra Rocket Battery
+			{"MyObjectBuilder_ConveyorSorter/ARYXHydraTurret", 1500},							// RL6 Hydra Rocket Battery
 			{"MyObjectBuilder_ConveyorSorter/ARYXTacticalModule", 0},							// Aegis Tactical Module
 			{"MyObjectBuilder_LargeMissileTurret/ARYXHeavyFlakTurret", 900}, 					// F4-GL Thrasher Heavy Flak Cannon
 			{"MyObjectBuilder_ConveyorSorter/ARYXMissileBattery", 4000},						// M8G-LS4 Longsword Missile Battery
 			{"MyObjectBuilder_LargeMissileTurret/ARYXPlasmaBeamCannon", 4000},					// NC7-5F Trident Plasma Beam Cannon
 			{"MyObjectBuilder_ConveyorSorter/ARYXOculusLaserBase", 100000},						// Oculus Orb-PD Laser
 			{"MyObjectBuilder_ConveyorSorter/ARYXRailgun", 1500},								// Artemis-250 Railgun
-			{"MyObjectBuilder_ConveyorSorter/ARYXInterceptorPDGun", 800},  						// R1-S Interceptor Rocket Pod         
+			{"MyObjectBuilder_ConveyorSorter/ARYXInterceptorPDGun", 500},  						// R1-S Interceptor Rocket Pod         
 			{"MyObjectBuilder_LargeMissileTurret/ARYXJuryCannon", 500},							// M120 Whirlwind Heavy Cannon
 			{"MyObjectBuilder_LargeGatlingTurret/ARYXCodexPDC", 400},							// MG25 "Avalanche" Heavy Machine Gun
 			{"MyObjectBuilder_ConveyorSorter/ARYXSlantedCodexPDC", 400},						// MG25 "Avalanche" Slanted Heavy Machine Gun
 			{"MyObjectBuilder_ConveyorSorter/ARYXSlantedInvCodexPDC", 400},					 	// MG25 "Avalanche" Slanted Heavy Machine Gun		
-			{"MyObjectBuilder_LargeMissileTurret/ARYXWarriorGatling", 1900},					// LS5-MG100 Warrior Heavy Gatling
+			{"MyObjectBuilder_LargeMissileTurret/ARYXWarriorGatling", 4500},					// LS5-MG100 Warrior Heavy Gatling
 			{"MyObjectBuilder_LargeMissileTurret/ARYXPulseTurret", 750},						// PL16 Gravastar Laser Turret
 			{"MyObjectBuilder_LargeMissileTurret/ARYXCompactPulseTurret", 750},					// PL16-C Gravastar Laser Turret
-			{"MyObjectBuilder_LargeMissileTurret/ARYXNucleonShotgun", 500},						// Nucleon Energy Shotgun
+			{"MyObjectBuilder_LargeMissileTurret/ARYXNucleonShotgun", 1000},						// Nucleon Energy Shotgun
 			{"MyObjectBuilder_ConveyorSorter/ARYXFlechetteLauncher", 500},						// Flechette Launcher
 			{"MyObjectBuilder_LargeMissileTurret/ARYXFlakTurret", 500},							// Riptide Flak Turret
 			{"MyObjectBuilder_ConveyorSorter/ARYXTorpLauncher", 1200},							// TL-150 Astraeus Torpedo Launcher
@@ -105,17 +105,17 @@ namespace Limits
 			{"MyObjectBuilder_ConveyorSorter/ARYXVariableLauncher", 7500},						// Variable Warhead Single-use Launcher
 			{"MyObjectBuilder_LargeMissileTurret/ARYX_FocusBeam_CompactTurret", 500},			// M98-T Focus Beam Turret
 			{"MyObjectBuilder_ConveyorSorter/ARYX_Small_Sidekick_Hangar", 3500},				// Small Hangar Bay				
-			{"MyObjectBuilder_ConveyorSorter/ARYX_LargeFlareLauncher", 500},					// F9-B Flare Launcher
+			{"MyObjectBuilder_ConveyorSorter/ARYX_LargeFlareLauncher", 350},					// F9-B Flare Launcher
 			{"MyObjectBuilder_ConveyorSorter/ARYXLargeIonCannon", 10000},						// CT500 Centurion Ion Cannon
-			{"MyObjectBuilder_ConveyorSorter/ARYXWarriorGatlingGun", 1750},						// LS5-MG100 Warrior Heavy Gatling Gun	
+			{"MyObjectBuilder_ConveyorSorter/ARYXWarriorGatlingGun", 4500},						// LS5-MG100 Warrior Heavy Gatling Gun	
 			{"MyObjectBuilder_LargeMissileTurret/ARYXVulcanTurret", 1250},						// MG65-T Vulcan Gatling Cannon
-			{"MyObjectBuilder_ConveyorSorter/ARYXGladiatorMissileLauncher", 4000},				// TS-L8 Gladiator Tactical Launcher
+			{"MyObjectBuilder_ConveyorSorter/ARYXGladiatorMissileLauncher", 2500},				// TS-L8 Gladiator Tactical Launcher
 			{"MyObjectBuilder_ConveyorSorter/ARYXRocketArtillery", 9000},						// RA-5 Starfall Rocket Artillery
 			{"MyObjectBuilder_LargeMissileTurret/ARYXPhaseRepeaterCannon", 3000},				// XM500 Medusa Phase Cannon
 
 		//AWE Weapons CAPTURABLE	
 			{"MyObjectBuilder_ConveyorSorter/ARYXKingswordSupercannon", 25000},				// S12A-3KS Kingsword Casaba Lance	
-			{"MyObjectBuilder_ConveyorSorter/ARYXHeavyTorpedoLauncher", 8000},					// TL-350A Hyperion Heavy Torpedo Launcher		
+			{"MyObjectBuilder_ConveyorSorter/ARYXHeavyTorpedoLauncher", 5000},					// TL-350A Hyperion Heavy Torpedo Launcher		
 		
 		//TIO Weapons	
 //Cannons					
@@ -148,21 +148,22 @@ namespace Limits
 
 		//Modded AWE
 //Cannon
-			{"MyObjectBuilder_SmallMissileLauncher/ARYXWindfallCannon", 1000},					// M240 Windfall Strike Cannon
+			{"MyObjectBuilder_SmallMissileLauncher/ARYXWindfallCannon", 2500},					// M240 Windfall Strike Cannon
 			{"MyObjectBuilder_SmallMissileLauncher/ARYXStormCannon", 1000},						// M120 Storm Light Cannon
 			{"MyObjectBuilder_LargeMissileTurret/ARYXCycloneCannon_SG", 2000},					// M240 Cyclone Strike Cannon
-			{"MyObjectBuilder_LargeMissileTurret/ARYX_ChordAutocannon_SG", 500},				// AC54 Chord
+			{"MyObjectBuilder_LargeMissileTurret/ARYX_ChordAutocannon_SG", 550},				// AC54 Chord
 			{"MyObjectBuilder_LargeMissileTurret/ARYXBurstTurret_SG", 2000},					// BR-RT7 "Punisher" Burst Cannon
-			{"MyObjectBuilder_SmallMissileLauncher/ARYX_Fixed_Chord_auto", 350}, 				// AC54 Chord Autocannon						
+			{"MyObjectBuilder_SmallMissileLauncher/ARYX_Fixed_Chord_auto", 300}, 				// AC54 Chord Autocannon						
 //Railgun
-			{"MyObjectBuilder_ConveyorSorter/ARYXLightRailgun", 700},							// Antaeus-115 Railgun	
+			{"MyObjectBuilder_ConveyorSorter/ARYXLightRailgun", 1000},							// Antaeus-115 Railgun	
 //Plasma
-			{"MyObjectBuilder_ConveyorSorter/ARYX_SpartanCannonSG", 500},						// AL35-R Spartan Plasma Cannon
+			{"MyObjectBuilder_ConveyorSorter/ARYX_SpartanCannonSG", 1500},						// AL35-R Spartan Plasma Cannon
 //Laser
 			{"MyObjectBuilder_ConveyorSorter/ARYXSmallPulseLaser_Fixed", 1000},					// PL4-S Zarya Pulse Laser
-			{"MyObjectBuilder_ConveyorSorter/ARYXArgusLaser", 1000},							// Argus Orb PD Laser				
+			{"MyObjectBuilder_ConveyorSorter/ARYXArgusLaser", 1000},							// Argus Orb PD Laser			
+			{"MyObjectBuilder_ConveyorSorter/AryxNucleonShotgun_SG", 1000},						// Nucleon Laser Shotgun	
 //Point Defense
-			{"MyObjectBuilder_SmallGatlingGun/ARYX_FixedAtlasGatling", 1000},					// MG50 Coaxial ATLAS Gatling Gun
+			{"MyObjectBuilder_SmallGatlingGun/ARYX_FixedAtlasGatling", 250},					// MG50 Coaxial ATLAS Gatling Gun
 //Siege
 			{"MyObjectBuilder_ConveyorSorter/ARYXSmallBombBay", 1000},							// B2-M Shrike Bomb Bay
 			{"MyObjectBuilder_ConveyorSorter/ARYX_SabreMissileHardpoint", 2000},				// Sabre Missile
@@ -170,13 +171,13 @@ namespace Limits
 //Other		
 			{"MyObjectBuilder_ConveyorSorter/ARYXSmallRadar", 0},								// "Maxwell" Radar Unit
 //OLD//			
-			{"MyObjectBuilder_ConveyorSorter/ARYX_FocusBeam_CompactSG", 1000},					// M98-V Compact Focus Beam
+			{"MyObjectBuilder_ConveyorSorter/ARYX_FocusBeam_CompactSG", 2000},					// M98-V Compact Focus Beam
 			{"MyObjectBuilder_ConveyorSorter/ARYXLongbowLauncher_SG", 1500},					// ML-70 Longbow Missile Launcher
 			{"MyObjectBuilder_SmallMissileLauncher/ARYXTempestCannon_SG", 2000},				// M600 Tempest Strike Cannon
-			{"MyObjectBuilder_SmallGatlingGun/ARYX_SmallChaingun", 1000},						// MG22-S Prowler Chaingun
-			{"MyObjectBuilder_ConveyorSorter/ARYX_SmallFlareLauncher", 350},					// F9-B Flare Launcher
+			{"MyObjectBuilder_SmallGatlingGun/ARYX_SmallChaingun", 750},						// MG25-S Prowler Chaingun
+			{"MyObjectBuilder_ConveyorSorter/ARYX_SmallFlareLauncher", 750},					// F9-B Flare Launcher
 			{"MyObjectBuilder_ConveyorSorter/ARYXSmallFlechetteLauncher", 1000},				// Small Flechette Launcher
-			{"MyObjectBuilder_LargeGatlingTurret/ARYXCodexPDC_SG", 2000},						// MG25 "Avalanche" Heavy Machine Gun		
+			{"MyObjectBuilder_LargeGatlingTurret/ARYXCodexPDC_SG", 750},						// MG25 "Rampart" Heavy Machine Gun		
 
 	/* Sudentican Weapons */
 			{"MyObjectBuilder_ConveyorSorter/Aryx_Sudentican_Spinal_Gun", 99999},				// Sudentican Linear Plasma Accelerator
